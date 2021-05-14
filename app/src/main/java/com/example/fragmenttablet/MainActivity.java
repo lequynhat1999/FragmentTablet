@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements PassData{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "Hello github", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello github again", Toast.LENGTH_SHORT).show();
     }
 
     @Override
